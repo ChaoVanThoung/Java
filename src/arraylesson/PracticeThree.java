@@ -60,7 +60,7 @@ public class PracticeThree {
                     System.out.println("------- Search Condo -------");
                     System.out.println("Enter the floor number(1-" + row + "): ");
                     floorNum = scanner.nextInt();
-                    System.out.println("Enter the room number(1-" + col + "): ");
+                    System.out.println("Enter the room numbers(1-" + col + "): ");
                     roomNum = scanner.nextInt();
                     for (int i = 0; i < floorNum; i++) {
                         for (int j = 0; j < roomNum; j++) {
